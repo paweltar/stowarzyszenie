@@ -6,7 +6,7 @@ body {
   min-height: 100vh;
   flex-direction: column;
   /* Background pattern from subtlepatterns.com */
-  background: url(/img/assets/handmadepaper.png) repeat center center fixed;
+  // background: url(/img/assets/handmadepaper.png) repeat center center fixed;
 }
 
 .site-header {
@@ -14,14 +14,14 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    padding-top: 5%;
+    padding-top: 30px;
     @include media-query($on-palm) {
       flex-direction: column;
       justify-content: center;
     }
     .header-title {
       text-decoration: none;
-      margin-left: 5%;
+      margin-left: 10%;
       width: 60%;
       @include media-query($on-palm) {
         @include center-on-mobile;
