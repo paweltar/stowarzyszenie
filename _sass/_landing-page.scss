@@ -1,19 +1,20 @@
 .landing-page-wrapper {
   margin: 5%;
   .home {
+    background-color: white;
     display: flex;
     flex-direction: column;
     align-content: space-between;
     width: 100%;
     max-width: 1000px;
     height: 100%;
-    border: 1px solid $grey-color;
-    border-radius: 3px;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+    border-radius: 6px;
+    font-family: 'Muli';
     nav {
       ul {
         height: 30px;
         align-items: center;
-        border-bottom: 1px dashed $grey-color-dark;
         display: flex;
         flex-direction: row;
         justify-content: space-around;
@@ -31,6 +32,9 @@
             height: 30px;
             padding-top: 6px;
           }
+          a {
+            color: $grey-color-dark;
+          }
         }
       }
     }
@@ -42,14 +46,15 @@
       align-items: center;
       flex-wrap: wrap;
       .card {
+        background-color: white;
         width: 250px;
         height: 400px;
         margin: 20px;
-        border: 1px solid $grey-color-dark;
-        border-radius: 3px;
+        box-shadow: 0 1px 2px 0 rgba(0,0,0,0.22);
+        border-radius: 6px;
         .card-title {
           height: 30px;
-          border-bottom: 1px dashed $grey-color-dark;
+          border-radius: 6px 6px 0 0;
           display: flex;
           flex-direction: row;
           align-items: center;
@@ -59,11 +64,11 @@
           }
         }
         .card-content {
-            height: 336px;
+            height: 340px;
         }
         .card-footer {
           height: 30px;
-          border-top: 1px dashed $grey-color-dark;
+          border-radius: 0 0 6px 6px;
           display: flex;
           align-items: center;
           justify-content: flex-end;
@@ -74,4 +79,17 @@
       }
     }
   }
+}
+
+.dark-purple {
+  background-color: #35284A;
+  color: white;
+}
+.purple {
+  background-color: #816F90;
+  color: white;
+}
+.orange {
+  background-color: #FB7D79;
+  color: black;
 }

@@ -5,6 +5,8 @@ body {
   display: flex;
   min-height: 100vh;
   flex-direction: column;
+  /* Background pattern from subtlepatterns.com */
+  background: url(/img/assets/handmadepaper.png) repeat center center fixed;
 }
 
 .site-header {
@@ -20,21 +22,29 @@ body {
     .header-title {
       text-decoration: none;
       margin-left: 5%;
-      width: 40%;
+      width: 60%;
       @include media-query($on-palm) {
         @include center-on-mobile;
       };
+      .site-title {
+        font-family: 'Alegreya';
+        font-size: 30px;
+        color: black;
+      }
     }
     .header-contact-info {
       margin-right: 5%;
+      color: $grey-color-dark;
       li {
         list-style: none;
         display: flex;
         flex-direction: row;
         justify-content: center;
         align-items: center;
+        padding-bottom: 5px;
         p {
           margin-left: 5px;
+          font-family: 'Muli'
         }
       }
       @include media-query($on-palm) {
