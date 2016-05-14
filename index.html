@@ -1,23 +1,53 @@
 ---
-layout: default
+layout: landing_page
 ---
 
 <div class="home">
 
-  <h1 class="page-heading">Posts</h1>
+  <nav>
+    <ul>
+      <li>Dokumenty</li>
+      <li>Często zadawane pytania</li>
+      <li>Historia</li>
+    </ul>
+  </nav>
 
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+  <div class="important-cards">
+    <div class="card">
+      <div class="card-title">
+        <p>Ważne informacje</p>
+      </div>
+      <div class="card-content">
 
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-      </li>
-    {% endfor %}
-  </ul>
+      </div>
+      <div class="card-footer">
+        <p>Więcej <span>ico</span></p>
+      </div>
+    </div>
 
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+    <div class="card">
+      <div class="card-title">
+        <p>Galeria</p>
+      </div>
+      <div class="card-content">
+
+      </div>
+      <div class="card-footer">
+        <p>Więcej <span>ico</span></p>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="card-title">
+        <p>Lokalizacja</p>
+      </div>
+      <div class="card-content">
+
+      </div>
+      <div class="card-footer">
+        <p>Więcej <span>ico</span></p>
+      </div>
+    </div>
+  </div>
 
 </div>
