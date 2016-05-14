@@ -5,20 +5,28 @@
     flex-direction: column;
     align-content: space-between;
     width: 100%;
+    max-width: 1000px;
     height: 100%;
     border: 1px solid $grey-color;
+    border-radius: 3px;
     nav {
       ul {
+        height: 30px;
+        align-items: center;
+        border-bottom: 1px dashed $grey-color-dark;
         display: flex;
         flex-direction: row;
         justify-content: space-around;
         @include media-query($on-palm) {
           flex-direction: column;
+          border-bottom: none;
+          height: auto;
           @include center-on-mobile;
         }
         li {
           list-style: none;
           @include media-query($on-palm) {
+            width: 90%;
             border-bottom: 1px dashed $grey-color-dark;
             height: 30px;
             padding-top: 6px;
@@ -56,9 +64,11 @@
         .card-footer {
           height: 30px;
           border-top: 1px dashed $grey-color-dark;
-          p {
-            float: right;
-            margin-right: 15px;
+          display: flex;
+          align-items: center;
+          justify-content: flex-end;
+          i {
+            margin: 0 15px 0 5px;
           }
         }
       }

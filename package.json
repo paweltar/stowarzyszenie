@@ -1,0 +1,11 @@
+{
+  "name": "stowarzyszenie",
+  "version": "1.0.0",
+  "description": "strona dla stowarzyszenia samotnych rencistow emerytow i inwalidow",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
