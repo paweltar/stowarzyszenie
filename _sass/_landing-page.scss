@@ -1,111 +1,168 @@
-.jumbotron {
-  background: $grey-color-light;
-  background-image: linear-gradient(to bottom, rgba(black, .6) 2%, transparent 20%), url('/img/assets/main-bg.jpg');
-  background-size: cover;
-  position: fixed;
-  top: 0;
-  left: 0;
-  z-index: -1;
+.main-section {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
   width: 100%;
-  height: 60vh;
+  position: relative;
   @include media-query($on-palm) {
-    height: 100vh;
+    height: auto;
   }
-}
-
-.landing-page-wrapper {
-  margin: 5%;
-  font-family: 'Muli';
-  nav {
-    margin-bottom: 20px;
-    @include white-card(0);
-    ul {
-      height: 30px;
-      align-items: center;
+  .bg-image-section {
+    width: 100%;
+    height: 60%;
+    background: $grey-color-light;
+    background-image: linear-gradient(to bottom, $dimmer 50%, transparent);
+    background-size: cover;
+    min-height: 540px;
+    @include media-query($on-palm) {
+      position: static;
+    }
+    .eye-catching-info-section {
+      top: 7%;
+      left: 20%;
+      height: 400px;
       display: flex;
       flex-direction: row;
-      justify-content: space-between;
-      padding: 0 20px 0 20px;
+      align-content: space-around;
+      justify-content: center;
+      margin: 0 10%;
       @include media-query($on-palm) {
-        flex-direction: column;
-        border-bottom: none;
+        flex-direction: column-reverse;
+        justify-content: center;
+        text-align: center;
+        position: static;
         height: auto;
-        @include center-on-mobile;
-        margin: 5% 0;
       }
-      li {
-        list-style: none;
-        padding: 0 0 2px 0;
+      .card {
+        width: 250px;
+        min-width: 250px;
+        height: 400px;
+        background-color: white;
+        box-shadow: 0px 4px 80px -10px black;
+        border-radius: 3px;
+        font-family: 'Muli';
+        //
+        box-sizing: border-box;
+        border-top: 10px solid $grey-color-light;
+        border-bottom: 10px solid $grey-color-light;
+        display: flex;
+        flex-direction: column;
+        .map {
+          height: 100%;
+        }
+        .cellphone {
+          @include card-element(#C6E09C);
+        }
+        .phone {
+          @include card-element(#FCC990);
+        }
+        .address {
+          @include card-element(#DB8483);
+        }
         @include media-query($on-palm) {
-          width: 90%;
-          border-bottom: 1px solid $grey-color-dark;
-          height: 30px;
-          padding: 6px 0 0 0;
-          &:last-child {
-            border-bottom: none;
-          }
+          margin: 20px auto;
+        }
+      }
+      .info-section {
+        margin: 30px 0 50px 50px;
+        color: white;
+        display: flex;
+        flex-direction: column;
+        height: 400px;
+        font-family: 'Muli';
+        @include media-query($on-palm) {
+          margin: 10px;
+          height: auto;
+        }
+        h1 {
+          margin-bottom: 40px;
+        }
+        p {
+          margin-bottom: 40px;
         }
         a {
-          color: $grey-color-dark;
+          margin-bottom: 110px;
+          text-align: center;
+          text-decoration: none;
+          color: #334854;
+          background-color: $main-button-color;
+          box-shadow: 0 3px darken($main-button-color, 60%);
+          border-radius: 10px;
+          padding: 5px 15px 8px 15px;
           text-transform: uppercase;
+          white-space: nowrap;
+          transition: all .3s ease-in-out;
+          width: 150px;
+          &:hover {
+            background-color: darken($main-button-color, 20%);
+          }
+          @include media-query($on-palm) {
+            margin: 0 auto;
+          }
         }
       }
     }
   }
-  .home {
-    display: flex;
-    flex-direction: column;
-    align-content: space-between;
-    width: 100%;
-    max-width: 1000px;
+  .important-links-section {
+    background-color: #EFECEA;
     height: 100%;
-    @include white-card(0);
-    .important-cards {
-      height: 100%;
+    min-height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Muli';
+    .important-links-wrapper {
       display: flex;
       flex-direction: row;
-      justify-content: space-around;
-      align-items: center;
-      flex-wrap: wrap;
-      .card {
-        background-color: white;
-        width: 250px;
-        height: 400px;
-        margin: 20px;
-        box-shadow: 0 1px 2px 0 rgba(0,0,0,0.22);
-        border-radius: 6px;
-        transition: all .3s ease-in-out;
-        &:hover {
-
+      justify-content: space-between;;
+      align-items: baseline;
+      width: 75%;
+      @include media-query($on-palm) {
+        flex-direction: column;
+        width: 90%;
+        align-items: center;
+      }
+      .important-link-block {
+        text-align: center;
+        width: 300px;
+        @include media-query($on-palm) {
+          margin: 20px;
         }
-        .card-title {
-          height: 30px;
-          border-radius: 6px 6px 0 0;
-          display: flex;
-          flex-direction: row;
-          align-items: center;
-          margin-bottom: 0;
-          p {
-            padding-left: 10px;
-          }
+        * {
+          margin: 5px;
         }
-        .card-content {
-            height: 340px;
-        }
-        .card-footer {
-          height: 30px;
-          border-radius: 0 0 6px 6px;
-          display: flex;
-          align-items: center;
-          justify-content: flex-end;
+        a {
+          color: $accent-color;
           i {
-            margin: 0 15px 0 5px;
+            font-size: 45px;
           }
-          p {
-            padding-bottom: 4px;
+        }
+        h2 {
+            font-family: 'Alegreya';
+        }
+        p {
+            font-style: italic;
+            color: $grey-color;
+        }
+        &:first-child {
+          margin-left: 10%;
+          @include media-query($on-palm) {
+            margin-left: 20px;
+            padding-top: 30px;
+          }
+        }
+        &:last-child {
+          margin-right: 10%;
+          @include media-query($on-palm) {
+            margin-right: 20px;
+            padding-bottom: 30px;
           }
         }
       }
     }
+
   }
+  // .history {
+  //   height: 200px;
+  // }
 }

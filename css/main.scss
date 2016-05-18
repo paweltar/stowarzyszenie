@@ -21,6 +21,12 @@ $grey-color:       #828282;
 $grey-color-light: lighten($grey-color, 40%);
 $grey-color-dark:  darken($grey-color, 25%);
 
+$dimmer: rgba(black, .2);
+// $main-bg-image: url('/img/assets/main-bg.jpg');
+$font-dark: #334854;
+$accent-color: #E04462;
+$main-button-color: #F4E3B7;
+
 // Width of the content area
 $content-width:    800px;
 
@@ -52,6 +58,19 @@ $on-laptop:        800px;
   background-color: white;
   box-shadow: 0 0 50px 0 rgba(0,0,0,0.2);
   border-radius: #{$border-radius}px;
+}
+
+@mixin card-element($color) {
+  height: 56px;
+  margin: 3px 0px;
+  background-color: $color;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  i {
+    margin-right: 10px;
+  }
 }
 
 

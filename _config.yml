@@ -6,9 +6,9 @@
 # 'jekyll serve'. If you change this file, please restart the server process.
 
 # Site settings
-title: Stowarzyszenie Samotnych Emerytów, Rencistów i Inwalidów
+title: Schronisko w Wąworkowie
 email: your-email@domain.com
-description: > # Strona Stowarzyszenia prowadzącego Dom Pomocy w Wąworkowie pod Opatowem
+description: > # Strona Domu Pomocy w Wąworkowie pod Opatowem
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://stowarzyszenie.pubstorm.site/" # the base hostname & protocol for your site
 

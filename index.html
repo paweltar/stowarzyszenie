@@ -1,48 +1,52 @@
 ---
-layout: landing_page
+layout: default
 ---
-{% include jumbotron.html %}
-
-{% include navbar.html %}
-
-<div class="home">
-
-  <div class="important-cards">
-    <div class="card">
-      <div class="card-title">
-        <p>Ważne informacje</p>
+<section class="main-section">
+  <section class="bg-image-section">
+    {% include header.html %}
+    <div class="eye-catching-info-section">
+      <div class="card">
+        <div class="map">
+          <script src='https://maps.googleapis.com/maps/api/js?v=3.exp'></script><div style='overflow:hidden;height:250px;width:250px;'><div id='gmap_canvas' style='height:440px;width:250px;'></div><div><small><a href="http://embedgooglemaps.com">									embed google map							</a></small></div><div><small><a href="http://googlemapsgenerator.com">google maps html code</a></small></div><style>#gmap_canvas img{max-width:none!important;background:none!important}</style></div><script type='text/javascript'>function init_map(){var myOptions = {zoom:10,center:new google.maps.LatLng(50.7861969,21.462546999999972),mapTypeId: google.maps.MapTypeId.TERRAIN};map = new google.maps.Map(document.getElementById('gmap_canvas'), myOptions);marker = new google.maps.Marker({map: map,position: new google.maps.LatLng(50.7861969,21.462546999999972)});infowindow = new google.maps.InfoWindow({content:'<strong>Pobroszyn</strong><br>Wąworków 34<br>'});google.maps.event.addListener(marker, 'click', function(){infowindow.open(map,marker);});infowindow.open(map,marker);}google.maps.event.addDomListener(window, 'load', init_map);</script>
+        </div>
+        <div class="cellphone">
+          <i class="material-icons">smartphone</i><p>111 111 111</p>
+        </div>
+        <div class="phone">
+          <i class="material-icons">call</i><p>(11) 111 11 11</p>
+        </div>
+        <div class="address">
+          <i class="material-icons">home</i><p>Wąworków 34</p>
+        </div>
       </div>
-      <div class="card-content">
-
-      </div>
-      <div class="card-footer">
-        <p>Więcej</p><i class="material-icons">keyboard_arrow_right</i>
-      </div>
-    </div>
-
-    <div class="card">
-      <div class="card-title">
-        <p>Galeria</p>
-      </div>
-      <div class="card-content">
-
-      </div>
-      <div class="card-footer">
-        <p>Więcej</p><i class="material-icons">keyboard_arrow_right</i>
+      <div class="info-section">
+        <h1>Schronisko dla Bezdomnych Kobiet i Mężczyzn w Wąworkowie pod Opatowem</h1>
+        <p>Nasze Schronisko prowadzone jest przez Stowarzyszenie Samotnych Rencistów, Emerytów i Inwalidów, założone w roku 1997</p>
+        <a href="" class="big-button">Częste pytania</a>
       </div>
     </div>
+  </section>
 
-    <div class="card">
-      <div class="card-title">
-        <p>Lokalizacja</p>
+  <section class="important-links-section">
+    <div class="important-links-wrapper">
+      <div class="important-link-block">
+        <a href=""><i class="material-icons">map</i></a>
+        <h2>Lokalizacja</h2>
+        <p>Jak dojechać do Domu Opieki w Wąworkowie?</p>
       </div>
-      <div class="card-content">
-
+      <div class="important-link-block">
+        <a href=""><i class="material-icons">account_circle</i></a>
+        <h2>O nas</h2>
+        <p>Czym się zajmujemy? Podstawowe informacje o naszym Domu w Wąworkowie oraz o Stowarzyszeniu.</p>
       </div>
-      <div class="card-footer">
-        <p>Więcej</p><i class="material-icons">keyboard_arrow_right</i>
+      <div class="important-link-block">
+        <a href=""><i class="material-icons">panorama</i></a>
+        <h2>Galeria</h2>
+        <p>Obejrzyj zdjęcia.</p>
       </div>
     </div>
-  </div>
+  </section>
+  <!-- <section class="history">
 
-</div>
+  </section> -->
+</section>
