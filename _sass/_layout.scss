@@ -8,8 +8,17 @@ body {
   };
 }
 
+.Site {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+.Site-content {
+  flex: 1;
+}
+
 .def-wrapper {
-  width: 75%;
   margin: 0 auto;
   @include media-query($on-palm) {
     width: 90%;
@@ -21,15 +30,15 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    padding: 30px 0 20px 0;
+    padding: 10px 0 20px 0;
     @include media-query($on-palm) {
       flex-direction: column;
       justify-content: center;
     }
     .header-title {
       text-decoration: none;
-      margin-left: 10%;
-      width: 60%;
+      border-bottom: 2px solid $accent-color;
+      text-align: center;
       @include media-query($on-palm) {
         @include center-on-mobile;
         padding-bottom: 15px;
