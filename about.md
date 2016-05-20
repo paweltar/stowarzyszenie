@@ -6,4 +6,8 @@ description: Kilka słów o Stowarzyszeniu Samotnych Rencistów, Emerytów i Inw
 
 Schronisko dla Kobiet i Mężczyzn w Wąworkowie prowadzone jest od 1996 roku przez Stowarzyszenie Samotnych Rencistów, Emerytów i Inwalidów.
 
-Cele naszego Stowarzyszenia to organizowanie pomocy i opieki osobom, które z różnych przyczyn znalazły się w trudnych warunkach życiowych (tj. ludziom starszym, mniej sprawnym fizycznie czy niepełnosprawnym, niebędącym w stanie prowadzić samodzielnie gospodarstwa domowego) a także dążenie do usuwania poczucia osamotnienia poprzez aktywizowanie mieszkańców schroniska do utrzymywania więzi społecznych, świadczenie wzajemnej pomocy i rozbudzanie życzliwości wobec osób starszych oraz potrzebujących pomocy.
+Celem naszego Stowarzyszenia jest organizowanie pomocy i opieki osobom, które z różnych przyczyn znalazły się w trudnych warunkach życiowych (tj. ludziom starszym, mniej sprawnym fizycznie czy niepełnosprawnym, niebędącym w stanie prowadzić samodzielnie gospodarstwa domowego).
+
+Staramy się także aktywizować mieszkańców schroniska do utrzymywania więzi społecznych aby zmniejszać poczucie odrzucenia i osamotnienia. Zachęcamy do świadczenia wzajemnej pomocy i do okazywania życzliwości wobec osób starszych oraz innych ludzi potrzebujących pomocy.
+
+Warto wspomnieć też, że w schronisku jest zorganizowana kaplica, w której w każdą niedzielę i święta o godzinie 10.00 odbywa się Msza Św odprawiana przez Ojców Bernardynów z parafii pod wezwaniem Wniebowzięcia Najświętszej Marii Panny w Opatowie.
