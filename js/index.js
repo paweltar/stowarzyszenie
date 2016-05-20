@@ -9,4 +9,6 @@ $(document).ready(function() {
 			$('.nav-links').removeClass("mobile-style");
 		}
 	});
+
+	$('.chocolat-parent').Chocolat();
 });
