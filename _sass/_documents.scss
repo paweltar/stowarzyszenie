@@ -1,0 +1,23 @@
+.documents-wrapper {
+  @extend .gallery-wrapper;
+  .doc-frame {
+    background-color: $grey-color-light;
+    padding: 10px;
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+      i {
+        margin: auto;
+        font-size: 50px;
+        color: $accent-color;
+      }
+      p {
+        margin: 0;
+        color: $grey-color-dark;
+        text-align: center;
+        line-height: 15px;
+      }
+  }
+}
