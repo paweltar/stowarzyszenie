@@ -1,6 +1,7 @@
 .universal-wrapper {
   margin: 50px auto;
   width: 50%;
+  max-width: 600px;
   @include media-query($on-palm) {
     width: 90%;
   }
@@ -19,6 +20,10 @@
     font-weight: 600;
     margin-bottom: 30px;
   }
+  p {
+    margin: 5px 0;
+    text-align: justify;
+  }
   hr {
     width: 100px;
     margin: 20px auto;
@@ -26,4 +31,10 @@
     border: medium none;
     background-color: $accent-color;
   }
+}
+
+.article-wrapper {
+  border-top: 2px solid lightgrey;
+  border-bottom: 2px solid lightgrey;
+  padding: 10px 0px;
 }
