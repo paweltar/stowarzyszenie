@@ -1,0 +1,24 @@
+.loc-info-section {
+  width: 100%;
+  display: flex;
+  flex-direction: column;;
+  align-items: center;
+  .loc-info-wrapper {
+    margin: auto;
+    padding: 20px;
+    font-weight: 200;
+    color: $grey-color-dark;
+    .fig {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      p {
+
+      }
+      i {
+        color: $accent-color;
+        margin-right: 10px;
+      }
+    }
+  }
+}
