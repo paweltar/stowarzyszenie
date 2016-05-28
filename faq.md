@@ -22,7 +22,7 @@ description: Odpowiedzi na naczęściej pojawiające się pytania
 
 ### Jaki jest koszt miesięcznego pobytu?
 
-> Koszt **miesięcznego** pobytu to 75% renty lub emerytury ale nie mniej niż 25 zł za **jeden dzień** pobytu.
+> Koszt **miesięcznego** pobytu to 70% renty lub emerytury ale nie mniej niż 25 zł za **jeden dzień** pobytu.
 
 ### Czy na terenie schroniska przebywają zwierzęta?
 

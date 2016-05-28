@@ -10,4 +10,4 @@ Celem naszego Stowarzyszenia jest organizowanie pomocy i opieki osobom, które z
 
 Staramy się także aktywizować mieszkańców schroniska do utrzymywania więzi społecznych aby zmniejszać poczucie odrzucenia i osamotnienia. Zachęcamy do świadczenia wzajemnej pomocy i do okazywania życzliwości wobec osób starszych oraz innych ludzi potrzebujących pomocy.
 
-Warto wspomnieć też, że w schronisku jest zorganizowana kaplica, w której w każdą niedzielę i święta o godzinie 10.00 odbywa się Msza Św odprawiana przez Ojców Bernardynów z parafii pod wezwaniem Wniebowzięcia Najświętszej Marii Panny w Opatowie.
+Warto wspomnieć też, że w schronisku funkcjonuje kaplica, w której w każdą niedzielę i święta o godzinie 10.00 odbywa się Msza Św odprawiana przez Ojców Bernardynów z parafii pod wezwaniem Wniebowzięcia Najświętszej Marii Panny w Opatowie.
